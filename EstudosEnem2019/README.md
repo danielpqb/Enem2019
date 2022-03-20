@@ -1,4 +1,5 @@
 # EstudosEnem2019
+gew
 Este repositório é um projeto voltado em analisar os dados dos participantes do Enem 2019 a fim de entender o cenário da educação brasileira.
 
 Para esse projeto baixei o arquivo 'MicrodadosEnem2019.csv' no site do Inep, que infelizmente excluiu os links para download, e agora oferece dados reduzidos apenas para o ano de 2020 em diante.
