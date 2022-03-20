@@ -1,0 +1,13 @@
+Modo Unzip = True
+Faz com que todos os arquivos de subpastas sejam movidos para a pasta #Adicionar.
+
+Modo Unzip = False
+Move todas as imagens (.jpg, .png, .tif etc) para a Pasta caminho desejada.
+
+
+O procedimento padrão a ser feito é:
+1) Modificar o Initial_Path e o Final_Path no script do programa.
+2) Rodar o programa com o modo Unzip=False. (Aglomera todos os arquivos de imagens em uma pasta)
+3) Criar uma pasta #Adicionar.
+4) Mudar o caminho da pasta #Adicionar no script do programa.
+5) Rodar o programa novamente com o modo Unzip=True. (Aglomera todos os outros arquivos (Provavelmente Videos) na pasta #Adicionar)
