@@ -41,7 +41,7 @@ def lffiles(path, f_type=None):
 
             if unzip == True:
                 try:
-                    shutil.move(file.path, r'D:\Users\Daniel\BACKUPs\Fotos\Separando\#Adicionar' + '\\' + file.name)
+                    shutil.move(file.path, except_path + '#Adicionar' + '\\' + file.name)
                     files += 1
                     continue
                 except:
@@ -59,7 +59,7 @@ def lffiles(path, f_type=None):
                     photo_coords = askcoord(file.path)
                     if photo_coords == None:
                         try:
-                            shutil.move(file.path, r'D:\Users\Daniel\BACKUPs\Fotos\Separando\#UnknownLocation' + '\\' + file.name)
+                            shutil.move(file.path, except_path + '#UnknownLocation' + '\\' + file.name)
                             unknwfiles += 1
                             continue
                         except:
@@ -85,9 +85,10 @@ def askcoord(filepath):
 file_types = ['.jpg', '.JPG', '.jpeg', '.JPEG', '.png', '.PNG', '.tif', '.TIF', '.gif', '.GIF']
 #file_types = ['.mp4', '.MP4', '.mov', '.MOV', '.3gp', '.3GP']
 
-initial_path = r'D:\Users\Daniel\BACKUPs\Fotos\Separando\04\Takeout\Google Fotos'
 unzip = True
+initial_path = r'D:\Users\Daniel\BACKUPs\Fotos\Separando\04\Takeout\Google Fotos'
 final_path = r'D:\Users\Daniel\BACKUPs\Fotos\Separando\04\Takeout\Google Fotos'
+except_path = r'D:\Users\Daniel\BACKUPs\Fotos\Separando\\'
 ignore_coord = True
 lat = -22.805
 long = -43.2
