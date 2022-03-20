@@ -5,19 +5,19 @@ Para esse projeto baixei o arquivo 'MicrodadosEnem2019.csv' no site do Inep, que
 
 De início o arquivo possuía cerca de 3 Gb de tamanho com mais de 5 milhões de linhas e 136 colunas. Meu primeiro desafio foi conseguir enxugar os dados que eu não iria utilizar.
 
-*Arquivo 'Reduzir.ipynb':*
+# 'Reduzir.ipynb':
 Tentei de diversas formas abrir esse arquivo gigantesco em alguns programas como: Excel, Access e MySQL Workbench. Mas totalmente sem sucesso, o arquivo era grande demais para a memória dos programas.
 O único programa que consegui rodar foi no Microsoft Power BI, mas com muita lentidão para manipular os dados.
 A melhor solução que encontrei foi tratar os dados em Python usando o Pandas. E melhor ainda, no JupyterNotebook para ter melhor visualização ao executar o código em etapas.
 Utilizei bastante memória RAM para isso, mas o resultado foi supreendente. Tanto a velocidade de execução quanto a capacidade de desenvolver e refazer etapas foi excepcional.
 
-*Arquivo 'SubstituirIndicadoresPorTexto.ipynb':*
+# 'SubstituirIndicadoresPorTexto.ipynb':
 Após reduzir o tamanho do arquivo de quase 3 Gb para 877 Mb, o arquivo ainda era muito difícil de entender pois os valores das células estavam codificados. Para isso precisei de um jeito de ler o dicionário fornecido pelo Inep e substituir os números por textos.
 Resolvi da seguinte forma:
 Abri um Excel com o dicionário e criei alguns códigos em VBA para ler e separar os dados de forma o script já me entregasse uma string com o comando que eu precisaria usar em Python.
 O resultado final foi um arquivo de 1.87Gb muito mais legível, e que excluia os dados que não eram importantes para o estudo.
 
-*Apresentação*
+# Apresentação
 Finalmente consegui abrir o arquivo no Power BI com os dados já tratados, o que já me levou direto a fazer os estudos que eu queria.
 Primeiramente separei um grupo específico de estudantes que chamei de 'Compromissados'. Os compromissados são estudantes que:
 1) Estavam presentes em todas as provas.
