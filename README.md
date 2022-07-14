@@ -25,5 +25,7 @@ Primeiramente separei um grupo específico de estudantes que chamei de 'Compromi
 3) Não eram 'treineiros'. obs.: Para o Inep treineiro é aquele aluno que só foi fazer a prova para ter a experiência de fazer.
 Ou seja, o 'Compromissados' são aqueles que se esforçaram em estar presentes em todas as provas e deram o seu melhor sem trapacear.
 
+<img src="https://cdn.discordapp.com/attachments/387391441397350411/996985890050146435/download.png" />
+
 A minha principal observação nos dados foi a seguinte:
 As diferenças de idade, sexo, cor e região são insignificantes na nota final do aluno. Mas quando olhamos para a diferença dos compromissados para a média geral, já é possível ver uma diferença discrepante.
