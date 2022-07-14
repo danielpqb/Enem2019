@@ -14,7 +14,7 @@ Utilizei bastante memória RAM para isso, mas o resultado foi supreendente. Tant
 # 'SubstituirIndicadoresPorTexto.ipynb':
 Após reduzir o tamanho do arquivo de quase 3 Gb para 877 Mb, o arquivo ainda era muito difícil de entender pois os valores das células estavam codificados. Para isso precisei de um jeito de ler o dicionário fornecido pelo Inep e substituir os números por textos.
 Resolvi da seguinte forma:
-Abri um Excel com o dicionário e criei alguns códigos em VBA para ler e separar os dados de forma o script já me entregasse uma string com o comando que eu precisaria usar em Python.
+Abri o dicionário no Excel e escrevi alguns códigos em VBA para ler e separar os dados. Dessa forma o script já me entregava uma string com o comando que eu precisaria usar em Python.
 O resultado final foi um arquivo de 1.87Gb muito mais legível, e que excluia os dados que não eram importantes para o estudo.
 
 # Apresentação
