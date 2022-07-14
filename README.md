@@ -17,7 +17,7 @@ Resolvi da seguinte forma:
 Abri o dicionário no Excel e escrevi alguns códigos em VBA para ler e separar os dados. Dessa forma o script já me entregava uma string com o comando que eu precisaria usar em Python.
 O resultado final foi um arquivo de 1.87Gb muito mais legível, e que excluia os dados que não eram importantes para o estudo.
 
-# Apresentação
+# Estudo dos dados
 Finalmente consegui abrir o arquivo no Power BI com os dados já tratados, o que já me levou direto a fazer os estudos que eu queria.
 Primeiramente separei um grupo específico de estudantes que chamei de 'Compromissados'. Os compromissados são estudantes que:
 1) Estavam presentes em todas as provas.
