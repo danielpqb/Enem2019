@@ -24,7 +24,7 @@ Primeiramente separei um grupo específico de estudantes que chamei de 'Compromi
 2) Não foram eliminados por qualquer motivo.
 3) Não eram 'treineiros'. obs.: Para o Inep treineiro é aquele aluno que só foi fazer a prova para ter a experiência de fazer.
 
-Ou seja, o 'Compromissados' são aqueles que se esforçaram em estar presentes em todas as provas e deram o seu melhor sem trapacear.
+Ou seja, 'Compromissados' são aqueles que se esforçaram em estar presentes em todas as provas e deram o seu melhor sem trapacear.
 
 <img src="https://cdn.discordapp.com/attachments/387391441397350411/996985890050146435/download.png" />
 
